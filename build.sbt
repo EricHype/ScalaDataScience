@@ -17,3 +17,6 @@ libraryDependencies += "org.mongodb" %% "casbah" % "3.1.1" pomOnly()
 
 // https://mvnrepository.com/artifact/org.apache.kafka/kafka
 libraryDependencies += "org.apache.kafka" %% "kafka" % "0.11.0.2"
+
+// https://mvnrepository.com/artifact/com.typesafe.akka/akka-actor
+libraryDependencies += "com.typesafe.akka" %% "akka-actor" % "2.5.8"

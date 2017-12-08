@@ -4,7 +4,7 @@
 		module="sparktest_2.11"
 		revision="0.1"
 		status="integration"
-		publication="20171208123553"
+		publication="20171208135835"
 	>
 		<description>
 		sparkTest
@@ -40,5 +40,6 @@
 			<artifact name="casbah_2.11" type="pom" ext="pom" conf="pom"/>
 		</dependency>
 		<dependency org="org.apache.kafka" name="kafka_2.11" rev="0.11.0.2" conf="compile->default(compile)"/>
+		<dependency org="com.typesafe.akka" name="akka-actor_2.11" rev="2.5.8" conf="compile->default(compile)"/>
 	</dependencies>
 </ivy-module>
